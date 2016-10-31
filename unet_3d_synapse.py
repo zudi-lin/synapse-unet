@@ -23,10 +23,10 @@ from theano.ifelse import ifelse
 
 rng = np.random.RandomState(7)
 
-learning_rate = 0.01
+learning_rate = 0.001
 momentum = 0.99
 doTrain = int(sys.argv[1])
-doFineTune = True
+doFineTune = False
 
 patchSize = 508
 patchSize_out = 324
