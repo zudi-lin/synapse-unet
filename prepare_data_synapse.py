@@ -284,4 +284,4 @@ def prediction_full_patch_spine(patchSize=572, patchSize_out=388, patchZ=23, pat
             newProb_set[i] = probImages[i].flatten()
 
 	newMembrane=newMembrane.astype(np.int)
-        return  newProb_set, newMembrane  
+        return  newProb_set, newMembrane        
