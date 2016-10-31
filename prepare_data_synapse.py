@@ -7,6 +7,7 @@ import random
 from keras.models import Model, Sequential, model_from_json
 import math
 
+
 def normalizeImage(img, saturation_level=0.05):
     sortedValues = np.sort( img.ravel())
     minVal = np.float32(sortedValues[np.int(len(sortedValues) * (saturation_level / 2))])
