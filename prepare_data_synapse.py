@@ -55,7 +55,7 @@ def crop_image_layer(x, cs):
 def generate_sample_spine(purpose='train', nsamples_patch=5, nsamples_block=10, patchSize=572, patchSize_out=388, patchZ=23, patchZ_out=1, block_name='train', doAugmentation=False):
 
     start_time = time.time()
-    pathPrefix = '/n/home09/zlin2016/project/spine_detection/spine_model_1.1/'
+    pathPrefix = 'DIR_PATH/'
     img_search_string_grayImages     = pathPrefix + 'images/' + purpose + '/*.png'
     img_search_string_membraneImages = pathPrefix + 'spinemasks/'+ purpose + '/*.png'
 
@@ -153,7 +153,7 @@ def generate_sample_spine(purpose='train', nsamples_patch=5, nsamples_block=10, 
 def prediction_full_patch_spine(patchSize=572, patchSize_out=388, patchZ=23, patchZ_out=1, writeImage=True, returnValue=True):
     
     start_time = time.time()
-    pathPrefix = '/n/home09/zlin2016/project/spine_detection/spine_model_1.1/'
+    pathPrefix = 'DIR_PATH/'
     img_search_string_grayImages     = pathPrefix + 'images/validate/*.png'
     img_search_string_membraneImages = pathPrefix + 'spinemasks/validate/*.png'
     img_files_gray = sorted(glob.glob( img_search_string_grayImages ))
