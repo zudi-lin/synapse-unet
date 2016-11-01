@@ -1,5 +1,5 @@
-# synapse-unet
-A three dimensional U-net for synaptic cleft detection. 
+# Synapse-unet
+A three dimensional U-net for synaptic cleft detection from electron microscopy (EM) images. 
 
 ## Network Architecture
 ![image](https://github.com/zudi-lin/synapse-unet/raw/master/img/unet_synapse.png)
