@@ -7,7 +7,7 @@ A three dimensional U-net for synaptic cleft detection from electron microscopy 
 ### Loss Function
 <span><img width="500" alt="" src="https://github.com/zudi-lin/synapse-unet/raw/master/img/loss_function.png" /></span> 
 
-<div style="text-align: center;">
+<div style="img-align: center;">
 <img width="500" alt="" src="https://github.com/zudi-lin/synapse-unet/raw/master/img/loss_function.png" /></div>
 
 ### Dataset
