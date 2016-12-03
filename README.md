@@ -2,7 +2,7 @@
 A three dimensional U-net for synaptic cleft detection from electron microscopy (EM) images. 
 
 ### Network Architecture
-![image](https://github.com/zudi-lin/synapse-unet/raw/master/img/unet_synapse.png)
+![image](https://github.com/zudi-lin/synapse-unet/raw/master/img/unet_synapse.pdf)
 
 ### Loss Function
 We try to solve the extreme class imbalance by using an energy function:
